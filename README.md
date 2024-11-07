@@ -1,6 +1,6 @@
 # Monitoreo de Recursos del Sistema en Linux
 
-Este script permite monitorear el uso de CPU, memoria y disco en el sistema y guarda los datos en un archivo CSV con marcas de tiempo.
+Este es mi primer proyecto. En este script, he creado una herramienta para monitorear el uso de CPU, memoria y disco en el sistema. Los datos recolectados se guardan en un archivo CSV con marcas de tiempo, lo que permite hacer un seguimiento continuo del rendimiento del sistema. Este proyecto tiene como objetivo aprender y practicar la interacción con el sistema operativo Linux mediante Python, además de trabajar con archivos CSV y realizar monitoreo de recursos.
 
 ## Requisitos
 

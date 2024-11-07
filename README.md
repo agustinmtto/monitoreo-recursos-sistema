@@ -13,19 +13,25 @@ Ejecuta el script en la terminal:
 
 ```bash
 python monitor.py
-
+```
 
 # Instalación
 Sigue estos pasos para clonar el repositorio y configurar el entorno:
 
 1- Clona el repositorio: 
+```bash
 git clone https://github.com/agustinmtto/monitoreo-recursos-sistema.git
+```
 
 2- Navega al directorio del proyecto:
+```bash
 cd monitoreo-recursos-sistema
+```
 
 3- Instala las dependencias necesarias:
+```bash
 pip install psutil
+```
 
 # Uso
 Para ejecutar el script: python monitor.py

@@ -39,7 +39,6 @@ Para ejecutar el script: python monitor.py
 
 # Ejemplo de Salida
 2024-11-07 15:30:01 | CPU: 23%, Memoria: 45%, Disco: 60%
-2024-11-07 15:30:11 | CPU: 25%, Memoria: 50%, Disco: 63%
 
 Los datos también se guardan en reporte_recursos.csv.
 

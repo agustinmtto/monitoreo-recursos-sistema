@@ -26,9 +26,8 @@ obtener_datos() {
     cpu=$((100 - cpu))
 
     # Obtener el porcentaje de uso de memoria
-    memoria=$(free | grep Mem | tr -s ' ' | cut -d ' ' -f 3,2)
-    memoria_usada=$(echo "$memoria" | cut -d ' ' -f 1)
-    memoria_total=$(echo "$memoria" | cut -d ' ' -f 2)
+    memoria_usada=$(free | grep Mem | tr -s ' ' | cut -d ' ' -f 3)
+    memoria_total=$(free | grep Mem | tr -s ' ' | cut -d ' ' -f 2)
     memoria=$((memoria_usada * 100 / memoria_total))
 
     # Obtener el porcentaje de uso de disco
@@ -42,8 +41,10 @@ obtener_datos() {
     echo "$fecha_hora, $cpu, $memoria, $disco" >> reporte_recursos.csv
 }
 
+# Capturar la señal de Ctrl + C y salir del script
+trap "echo -e '\nMonitoreo detenido por el usuario.'; exit 0" SIGINT
+
 # Bucle principal para monitorear el sistema
-trap "echo -e '\nMonitoreo detenido por el usuario.'" SIGINT
 while true; do
     obtener_datos
     sleep "$tiempo"

@@ -49,3 +49,4 @@ while true; do
     obtener_datos
     sleep "$tiempo"
 done
+

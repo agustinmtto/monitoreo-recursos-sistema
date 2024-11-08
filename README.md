@@ -35,7 +35,7 @@ Ingresa el intervalo de tiempo en segundos para el monitoreo cuando se te solici
 2024-11-07 15:30:01 | CPU: 23%, Memoria: 45%, Disco: 60%
 
 ## Archivos generados
-reporte_recursos.csv: archivo CSV que contiene las métricas registradas en cada intervalo especificado por el usuario. Incluye los siguientes campos:
+`reporte_recursos.csv`: archivo CSV que contiene las métricas registradas en cada intervalo especificado por el usuario. Incluye los siguientes campos:
 * Timestamp: Fecha y hora del registro
 * CPU (%): Porcentaje de uso de CPU
 * Memoria (%): Porcentaje de uso de memoria

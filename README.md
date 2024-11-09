@@ -1,6 +1,5 @@
 # Monitoreo de Recursos del Sistema en Linux
-
-Este es mi primer proyecto. En este script, he creado una herramienta para monitorear el uso de CPU, memoria y disco en un sistema Linux. Los datos obtenidos se registran en la consola y se guardan en un archivo CSV llamado `reporte_recursos.csv`.
+Este es mi primer proyecto. En este script, desarrollé una herramienta para monitorear el uso de CPU, memoria y disco en un sistema Linux. Los datos recopilados se muestran en la consola y se guardan en un archivo CSV llamado `reporte_recursos.csv`. El objetivo de este proyecto fue aplicar los conocimientos adquiridos sobre scripting en Linux.
 
 ## Características
 
